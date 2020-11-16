@@ -23,26 +23,30 @@ class App extends Component {
     .then(mainData=>this.setState({monsters:mainData}))
   }
    
-   Searched(e){
-     this.setState({search:e.target.value},()=>console.log(this.state))
-  }
+ 
 
   render(){
+    const {monsters,search} =this.state;
+    const filteredMonsters=monsters.filter(monster=>
+      monster.name.toLowerCase().includes(search.toLowerCase()))
+    console.log(filteredMonsters)
+
   return (
     <div className="App">
       {/* e is an event , e.target returns the html element triggering the event */}
       <input 
           type="search" 
           placeholder="Search Monster" 
-          onChange={(e)=>
+          onChange={ (e)=>
             {
               //setState function takes two parameters , one is the input function and the second is the callback function basically means the function to call after the execution of the input/first function
-               this.Searched(e)
+                this.setState({search:e.target.value})
+              
               
             }
         } 
       />
-      <CardList monsters={this.state.monsters}>
+      <CardList monsters={filteredMonsters}>
       </CardList>
     </div>
   );
