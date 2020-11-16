@@ -5,6 +5,7 @@ import './App.css';
 //import Users from './components/users/users';
 //importing functional component cardlist
 import {CardList} from './components/card-list/card-list.component';
+import {Search} from './components/search-box/search-box.component';
 
 
 class App extends Component {
@@ -34,18 +35,7 @@ class App extends Component {
   return (
     <div className="App">
       {/* e is an event , e.target returns the html element triggering the event */}
-      <input 
-          type="search" 
-          placeholder="Search Monster" 
-          onChange={ (e)=>
-            {
-              //setState function takes two parameters , one is the input function and the second is the callback function basically means the function to call after the execution of the input/first function
-                this.setState({search:e.target.value})
-              
-              
-            }
-        } 
-      />
+     <Search></Search>
       <CardList monsters={filteredMonsters}>
       </CardList>
     </div>
