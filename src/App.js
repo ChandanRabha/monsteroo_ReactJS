@@ -35,9 +35,9 @@ class App extends Component {
   return (
     <div className="App">
       {/* e is an event , e.target returns the html element triggering the event */}
-     <Search></Search>
-      <CardList monsters={filteredMonsters}>
-      </CardList>
+      <Search  placeholder="Search Monster" handleChange={e=> this.setState({search:e.target.value})} />
+      <CardList monsters={filteredMonsters} />
+
     </div>
   );
 }
