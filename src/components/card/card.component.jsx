@@ -19,6 +19,6 @@ export const Card = (props)=>(
         <img className="monsterImage" alt="monster" src={`https://robohash.org/${Math.random(10)}?set=set2&size=180x250`}></img>
         <h3>{props.monster.name}</h3>
         <p>{props.monster.email}</p>
-    </div>
+    </div>  
   
 )
