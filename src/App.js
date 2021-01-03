@@ -34,6 +34,8 @@ class App extends Component {
 
   return (
     <div className="App">
+      <h1>Monsters Roblox
+      </h1>
       {/* e is an event , e.target returns the html element triggering the event */}
       <Search  placeholder="Search Monster" handleChange={e=> this.setState({search:e.target.value})} />
       <CardList monsters={filteredMonsters} />
