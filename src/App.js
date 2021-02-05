@@ -1,8 +1,6 @@
 
 import React, {Component} from 'react';
 import './App.css';
-//importing a class component named users
-//import Users from './components/users/users';
 //importing functional component cardlist
 import {CardList} from './components/card-list/card-list.component';
 import {Search} from './components/search-box/search-box.component';
