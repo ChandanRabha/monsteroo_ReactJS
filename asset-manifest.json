@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/monsteroo_ReactJS/static/css/main.473f6b36.chunk.css",
-    "main.js": "/monsteroo_ReactJS/static/js/main.453b87e6.chunk.js",
-    "main.js.map": "/monsteroo_ReactJS/static/js/main.453b87e6.chunk.js.map",
+    "main.css": "/monsteroo_ReactJS/static/css/main.d189fd59.chunk.css",
+    "main.js": "/monsteroo_ReactJS/static/js/main.b1ea5171.chunk.js",
+    "main.js.map": "/monsteroo_ReactJS/static/js/main.b1ea5171.chunk.js.map",
     "runtime-main.js": "/monsteroo_ReactJS/static/js/runtime-main.52d87b6a.js",
     "runtime-main.js.map": "/monsteroo_ReactJS/static/js/runtime-main.52d87b6a.js.map",
     "static/js/2.d6f8af2a.chunk.js": "/monsteroo_ReactJS/static/js/2.d6f8af2a.chunk.js",
     "static/js/2.d6f8af2a.chunk.js.map": "/monsteroo_ReactJS/static/js/2.d6f8af2a.chunk.js.map",
     "index.html": "/monsteroo_ReactJS/index.html",
-    "precache-manifest.c132fcfc8291cf2d8207db38dc0bd699.js": "/monsteroo_ReactJS/precache-manifest.c132fcfc8291cf2d8207db38dc0bd699.js",
+    "precache-manifest.9977c9e6bf990ca258e4eb7799d5e6ba.js": "/monsteroo_ReactJS/precache-manifest.9977c9e6bf990ca258e4eb7799d5e6ba.js",
     "service-worker.js": "/monsteroo_ReactJS/service-worker.js",
-    "static/css/main.473f6b36.chunk.css.map": "/monsteroo_ReactJS/static/css/main.473f6b36.chunk.css.map",
+    "static/css/main.d189fd59.chunk.css.map": "/monsteroo_ReactJS/static/css/main.d189fd59.chunk.css.map",
     "static/js/2.d6f8af2a.chunk.js.LICENSE.txt": "/monsteroo_ReactJS/static/js/2.d6f8af2a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.52d87b6a.js",
     "static/js/2.d6f8af2a.chunk.js",
-    "static/css/main.473f6b36.chunk.css",
-    "static/js/main.453b87e6.chunk.js"
+    "static/css/main.d189fd59.chunk.css",
+    "static/js/main.b1ea5171.chunk.js"
   ]
 }
